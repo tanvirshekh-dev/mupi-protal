@@ -1,0 +1,119 @@
+/* Sections */
+.section {
+    padding: 72px 0;
+}
+
+.section-alt {
+    background: var(--surface-alt);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+}
+
+.section-header {
+    text-align: center;
+    max-width: 640px;
+    margin: 0 auto 44px;
+}
+
+.section-tag {
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: var(--primary);
+    display: block;
+    margin-bottom: 6px;
+}
+
+.section-header h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--dark);
+    margin-bottom: 10px;
+}
+
+.section-header p {
+    color: var(--text-muted);
+}
+
+/* Grids & Cards */
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 26px;
+    box-shadow: var(--shadow);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(15, 23, 42, 0.08);
+}
+
+.card-icon {
+    width: 46px;
+    height: 46px;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    font-size: 1.4rem;
+    margin-bottom: 16px;
+}
+
+.card-icon.blue { background: #dbeafe; }
+.card-icon.green { background: #d1fae5; }
+.card-icon.purple { background: #ede9fe; }
+.card-icon.orange { background: #ffedd5; }
+.card-icon.teal { background: #ccfbf1; }
+.card-icon.red { background: #fee2e2; }
+
+.card h3 {
+    font-size: 1.12rem;
+    margin-bottom: 8px;
+    color: var(--dark);
+}
+
+.card p {
+    font-size: 0.92rem;
+    color: var(--text-muted);
+    margin-bottom: 16px;
+}
+
+.card-link {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.card-link:hover {
+    text-decoration: underline;
+}
+
+/* Student Dashboard Banner */
+.portal-dashboard {
+    margin-bottom: 28px;
+}
+
+.welcome-banner {
+    background: linear-gradient(90deg, #1e3a8a, #2563eb);
+    color: #fff;
+    padding: 20px 26px;
+    border-radius: var(--radius);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.welcome-banner .btn-outline {
+    border-color: rgba(255,255,255,0.5);
+    color: #fff;
+}

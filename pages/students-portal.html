@@ -1,0 +1,58 @@
+<section id="portal" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">ACADEMICS &amp; SERVICES</span>
+                <h2>Students Portal</h2>
+                <p>Quick access to departmental resources, academic records, and local campus storage.</p>
+            </div>
+
+            <div class="portal-dashboard" id="studentDashboard" style="display:none;">
+                <div class="welcome-banner">
+                    <div>
+                        <h3>Welcome back, <span id="loggedStudentName">Student</span>!</h3>
+                        <p>Student ID: <span id="loggedStudentId">CS-2026-001</span> &bull; Department of Computer Science &amp; Engineering</p>
+                    </div>
+                    <button class="btn btn-outline btn-sm" id="logoutBtn">Logout</button>
+                </div>
+            </div>
+
+            <div class="grid-3">
+                <div class="card">
+                    <div class="card-icon blue">&#128218;</div>
+                    <h3>Course Materials &amp; Notes</h3>
+                    <p>Download lecture slides, lab sheets, and reference e-books organized by semester and department.</p>
+                    <a href="#resources-modal" class="card-link" onclick="openResourceModal('Course Materials')">Browse Repository &rarr;</a>
+                </div>
+                <div class="card">
+                    <div class="card-icon green">&#128202;</div>
+                    <h3>Exam Results &amp; Routine</h3>
+                    <p>Check published semester GPA, internal assessment marks, and updated class/lab schedules.</p>
+                    <a href="#resources-modal" class="card-link" onclick="openResourceModal('Exam Results & Routine')">Check Portal &rarr;</a>
+                </div>
+                <div class="card">
+                    <div class="card-icon purple">&#128190;</div>
+                    <h3>1.8 TB Software &amp; ISO Mirror</h3>
+                    <p>High-speed local downloads for Ubuntu, Kali Linux, VirtualBox, IDEs, and open-source dev tools.</p>
+                    <a href="#resources-modal" class="card-link" onclick="openResourceModal('1.8 TB Local Software Mirror')">Open File Mirror &rarr;</a>
+                </div>
+                <div class="card">
+                    <div class="card-icon orange">&#128197;</div>
+                    <h3>Attendance &amp; Leave</h3>
+                    <p>Track your daily class attendance percentage and submit medical or event participation leave requests.</p>
+                    <a href="#resources-modal" class="card-link" onclick="openResourceModal('Attendance Tracker')">View Attendance &rarr;</a>
+                </div>
+                <div class="card">
+                    <div class="card-icon teal">&#128187;</div>
+                    <h3>Campus Git &amp; Project Archive</h3>
+                    <p>Explore past diploma and undergraduate capstone projects, source code, and documentation.</p>
+                    <a href="#resources-modal" class="card-link" onclick="openResourceModal('Project Archive')">Explore Projects &rarr;</a>
+                </div>
+                <div class="card">
+                    <div class="card-icon red">&#128227;</div>
+                    <h3>Helpdesk &amp; Lab Support</h3>
+                    <p>Report lab PC issues, request Wi-Fi/intranet access, or contact campus system administrators.</p>
+                    <a href="#resources-modal" class="card-link" onclick="openResourceModal('IT Helpdesk')">Submit Ticket &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>

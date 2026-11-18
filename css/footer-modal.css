@@ -1,0 +1,108 @@
+/* Footer */
+.footer {
+    background: var(--dark);
+    color: #94a3b8;
+    padding: 36px 0;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.footer strong {
+    color: #fff;
+    font-size: 1.05rem;
+}
+
+.footer p {
+    font-size: 0.85rem;
+    margin-top: 4px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+/* Modals */
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(15, 23, 42, 0.65);
+    z-index: 200;
+    place-items: center;
+    padding: 20px;
+}
+
+.modal.open {
+    display: grid;
+}
+
+.modal-content {
+    background: var(--surface);
+    border-radius: var(--radius);
+    max-width: 460px;
+    width: 100%;
+    padding: 28px;
+    position: relative;
+    box-shadow: 0 24px 48px rgba(0,0,0,0.2);
+}
+
+.modal-close {
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--text-muted);
+}
+
+.modal-sub {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin: 6px 0 18px;
+}
+
+.form-group {
+    margin-bottom: 14px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 0.95rem;
+}
+
+.resource-intro { margin: 12px 0; color: #475569; }
+.resource-directory { background: #f1f5f9; padding: 14px; border-radius: 8px; margin-bottom: 16px; }
+.resource-directory ul { margin: 8px 0 0 20px; }
+.resource-tip { font-size: .85rem; color: #64748b; }
+.event-registration-form { margin-top: 12px; }
+.event-card[hidden] { display: none !important; }
+.app-error { padding: 12px 20px; background: #fee2e2; color: #991b1b; }
