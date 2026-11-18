@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360">
+  <rect width="600" height="360" fill="#312e81"/>
+  <circle cx="520" cy="60" r="90" fill="#a78bfa" fill-opacity="0.15"/>
+  <circle cx="80" cy="300" r="110" fill="#a78bfa" fill-opacity="0.12"/>
+  <rect x="40" y="135" width="64" height="6" rx="3" fill="#a78bfa"/>
+  <text x="40" y="180" fill="#ffffff" font-family="Arial, sans-serif" font-size="28" font-weight="bold">TECH FEST EXPO</text>
+  <text x="40" y="212" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="16">Student Capstone Showcase</text>
+</svg>
