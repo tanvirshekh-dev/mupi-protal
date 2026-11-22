@@ -136,6 +136,7 @@
 .event-badge.ctf { background: #d1fae5; color: #065f46; }
 .event-badge.hack { background: #dbeafe; color: #1e40af; }
 .event-badge.work { background: #fef3c7; color: #92400e; }
+.event-badge.robo { background: lightgrey; color: currentColor; }
 
 .event-date {
     font-size: 0.82rem;
